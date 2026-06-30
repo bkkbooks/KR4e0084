@@ -1,0 +1,120 @@
+canonical_identifier: bkk:krp/KR4e0084/v1
+canonical_location: https://kanripo.org/bkk/KR4e0084/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 虛舟集
+  date: '2015-08-25 00:18:57.768167'
+  source:
+    repository: kanripo
+    path: KR4e0084
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4e0084_000.yaml, hash: 'sha256:7824fa27aa297e8f6eb413d27a48124b426f9aeca6b061a671b49d19f5f2e6d7'}
+  - {seq: 1, filename: KR4e0084_001.yaml, hash: 'sha256:cee3895060cd7a16d3b0ac8c774a083472c9c7657a785dacccff7508fe5d1e31'}
+  - {seq: 2, filename: KR4e0084_002.yaml, hash: 'sha256:601663c161d8f5ab823002abe2e34772d4d62403e5982f81f5328804456c9d63'}
+  - {seq: 3, filename: KR4e0084_003.yaml, hash: 'sha256:fcb24d1f0bfc24be092fe8ffbd7638a1c65608e4676c043274df56df4347796e'}
+  - {seq: 4, filename: KR4e0084_004.yaml, hash: 'sha256:80d52745d54e2fe69397441163cb62254abc05b0c2a1ac3f2a652ad6bcf581ad'}
+  - {seq: 5, filename: KR4e0084_005.yaml, hash: 'sha256:a741eb01d03b405d9f1d6f001a430246e778826b7d1c060b7a110b40ea13012a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4e0084_000.markers.yaml, hash: 'sha256:508ca2bec0558042ebbf9cebeae0f02b04289f1abac7e16944c963df5407ea4d'}
+  - {seq: 1, role: markers, filename: assets/KR4e0084_001.markers.yaml, hash: 'sha256:3f15044757e0cd6f3649da5250b09fc7c651626f2f8c223a3088367d69d28602'}
+  - {seq: 2, role: markers, filename: assets/KR4e0084_002.markers.yaml, hash: 'sha256:4e3f05162186897e3ac4ffcdaca690e53ca5e67a3a24b6b44fd62a1dd4a70a14'}
+  - {seq: 3, role: markers, filename: assets/KR4e0084_003.markers.yaml, hash: 'sha256:1d44c613e8c8fa4265c5a705f1319abce3ce67e4b77049aecdb2380bed90876f'}
+  - {seq: 4, role: markers, filename: assets/KR4e0084_004.markers.yaml, hash: 'sha256:e9e3a28b2cd71eb24e79e60eb9e6ba9c56fc48206aca12847e84de3e7a428006'}
+  - {seq: 5, role: markers, filename: assets/KR4e0084_005.markers.yaml, hash: 'sha256:b12d9ad5d20752507ef81c2b80a6cddec3689ae494badf9dd00e7bff5f7d89a9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4e0084_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 354
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0084_WYG_000-3a
+    span:
+    - body
+    - 354
+    - 1815
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR4e0084_WYG_000-8a
+    span:
+    - body
+    - 1815
+    - 2499
+  label: 重刋虚舟集序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4e0084_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4718
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4e0084_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 7521
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4e0084_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 9976
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR4e0084_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 5023
+  label: 卷四
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR4e0084_WYG_005-1a
+    span:
+    - body
+    - 0
+    - 9278
+  label: 卷五
+  type: section
+  level: 1
+hash: sha256:26ea0dc41b57ffd74ae81b26ae5fd1cac2fc6e3496e3a298c82fcdbaba9b1825
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
